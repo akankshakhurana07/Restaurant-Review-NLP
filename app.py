@@ -1,8 +1,3 @@
-import subprocess
-import sys
-
-subprocess.check_call([sys.executable, "-m", "pip", "install", "nltk", "scikit-learn", "pandas", "numpy"])
-
 import streamlit as st
 import numpy as np
 import pandas as pd
