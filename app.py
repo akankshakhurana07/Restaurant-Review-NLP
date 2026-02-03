@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import re
 import nltk
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
